@@ -7,7 +7,7 @@ Solar-powered **MeshCore** rooftop bridge repeater design for **US/CA (902–928
 | Role | Rooftop bridge |
 | Autonomy | 3–5+ days |
 | Access | Serviceable rooftop |
-| Radio | LilyGo T-Beam 915 MHz |
+| Radio | LilyGo T-Beam 915 MHz (**already owned**) |
 | Firmware | MeshCore **Repeater** |
 
 ## Architecture
@@ -20,7 +20,7 @@ Do **not** connect LiFePO4 to the T-Beam `B+`/`B−` pads — the onboard AXP ch
 
 ## Bill of materials
 
-See [BOM.md](BOM.md) for a priced parts list (~**$228** recommended build, Oct 2026 retail estimates).
+See [BOM.md](BOM.md) for a priced parts list. With the T-Beam already on hand, remaining parts are ~**$182** (~**$185–220** with tax/shipping; Oct 2026 retail estimates).
 
 ## Flash & configure
 
