@@ -18,8 +18,8 @@ Do **not** connect LiFePO4 to T-Beam B+/B− (AXP charges to ~4.2 V).
 | 2a | *Alt antenna* | Compact 5 dBi N-male omni | 1 | 14.97 | — | [Rokland ALFA AOA-915-5ACM](https://store.rokland.com/products/alfa-aoa-915-5acm-5-dbi-omni-outdoor-915mhz-802-11ah-mini-antenna-for-lora-halow-application) |
 | 3 | **RF pigtail** | N-female → SMA-male (match T-Beam LoRa SMA), ≤1–2 m low-loss | 1 | 12.00 | 12.00 | Rokland / Amazon “N-female to SMA” LoRa cable |
 | 4 | **Solar panel + PWM controller kit** | 20 W mono + waterproof 10 A PWM (Li-compatible). Prefer LFP setting if available. | 1 | 49.99 | 49.99 | [Amazon Newpowa 20W kit](https://www.amazon.com/Newpowa-Solar-Charging-Controller-Regulator/dp/B00LDISZZA) · [Newpowa direct ~$40.79](https://www.newpowa.com/20w-waterproof-monocrystalline-solar-kit/) |
-| 5 | **LiFePO4 battery** | 12.8 V 6 Ah (~76.8 Wh) w/ BMS — exceeds 3–5 day target for T-Beam idle | 1 | 17.13 | 17.13 | [Amazon Takki 12V 6Ah LFP](https://www.amazon.com/dp/B0CYPQHG28) |
-| 5a | *Alt pack* | Same capacity, better brand/support | 1 | 34.99 | — | [DC HOUSE 6Ah + USB converter bundle](https://www.amazon.com/DC-HOUSE-Converter-Charging-Portable/dp/B0GCCZRH5W) |
+| 5 | **LiFePO4 battery** | 12.8 V 6 Ah (~76.8 Wh) w/ BMS — exceeds 3–5 day target for T-Beam idle. Includes LFP charger in many listings (use solar controller for rooftop charge). | 1 | 24.99 | **24.99** | [Amazon OCELL 12V 6Ah LFP](https://www.amazon.com/OCELL-6Ah-LiFePO4-Cycle-Battery/dp/B0G8JKL4GJ) |
+| 5a | *Alt pack* | Same capacity; search current stock if ASIN rotates | 1 | 23.99 | — | [Amazon search: 12V 6Ah LiFePO4](https://www.amazon.com/s?k=12V+6Ah+LiFePO4+battery) · prefer DC HOUSE / similar w/ BMS |
 | 6 | **12 V → 5 V USB supply** | Buck / USB out to power T-Beam USB (skip if using 5a bundle) | 1 | 14.99 | 14.99 | [Amazon DC HOUSE 12V→5V](https://www.amazon.com/DC-HOUSE-Converter-Battery-Chargers/dp/B0DJ2SNQNN) |
 | 6a | *Budget alt* | Bare 12 V→5 V buck module (wire to 5V pin) | 1 | 6.00 | — | Amazon / AliExpress mini buck |
 | 7 | **Inline fuse + holder** | ATC/blade ~3–5 A on battery **+** near pack | 1 | 5.00 | 5.00 | Hardware / Amazon fuse kit |
@@ -29,17 +29,17 @@ Do **not** connect LiFePO4 to T-Beam B+/B− (AXP charges to ~4.2 V).
 | 11 | **Mounting hardware (outdoor)** | Panel Z-brackets or pole clamps, U-bolts, UV zip-ties — **outside** the box | 1 | 15.00 | 15.00 | Hardware store / Amazon solar Z-brackets · **Inside-box mounts:** [BOM-enclosure-mounting.md](BOM-enclosure-mounting.md) (~$57) |
 | 12 | **Weather kit** | Silicone sealant, self-fusing tape (RF joints), silica desiccant pack | 1 | 12.00 | 12.00 | Hardware / Amazon |
 | 13 | **Hookup wire / connectors** | 16–18 AWG, Anderson/SAE as needed, ring terminals | 1 | 10.00 | 10.00 | Hardware / Amazon |
-| | | | | **Parts to buy** | **228.05** | |
+| | | | | **Parts to buy** | **235.91** | |
 
 ### Totals (recommended line items 1–13)
 
 | | Amount |
 |--|--------|
-| **Parts to buy (incl. T-Beam)** | **~$228** |
-| Est. tax (example 8%) | ~$18 |
+| **Parts to buy (incl. T-Beam)** | **~$236** |
+| Est. tax (example 8%) | ~$19 |
 | Est. shipping (if not free) | $0–25 |
-| **All-in estimate** | **~$230–270** |
-| If T-Beam already owned, subtract #1 | **~$182** parts / ~$185–220 all-in |
+| **All-in estimate** | **~$240–280** |
+| If T-Beam already owned, subtract #1 | **~$190** parts / ~$195–230 all-in |
 
 ---
 
@@ -88,8 +88,8 @@ If winters go below freezing, treat the cold-cutoff controller as **required**, 
 
 | Build | Key swaps | Approx. to buy |
 |-------|-----------|----------------|
-| **Budget** | T-Beam + ALFA antenna + Newpowa 20W + Takki 6Ah + bare buck + basic box | **~$200** |
-| **Recommended (this BOM)** | T-Beam + SparkFun fiberglass + USB buck + bulkhead + full weather kit | **~$228** |
+| **Budget** | T-Beam + ALFA antenna + Newpowa 20W + OCELL 6Ah + bare buck + basic box | **~$210** |
+| **Recommended (this BOM)** | T-Beam + SparkFun fiberglass + USB buck + bulkhead + full weather kit | **~$236** |
 | **Premium / cold** | Supreme or 1W radio + Bioenno LFP + Victron-class controller + cold cutoff | **~$350–450** |
 | **Skip radio** | If T-Beam already on hand, omit #1 | **−$46** |
 
