@@ -26,7 +26,7 @@ Terminal order: connect **battery first**, then panel. Fuse battery **+** near t
 
 ## Bill of materials
 
-See [BOM.md](BOM.md) for a priced parts list. Full build including LilyGo T-Beam is ~**$236** (~**$240–280** with tax/shipping; Oct 2026 retail estimates). If the T-Beam is already on hand, remaining parts are ~**$190**. Inside-box fasteners (standoffs, VHB, battery strap, etc.) are in [BOM-enclosure-mounting.md](BOM-enclosure-mounting.md) (~**$57**).
+See [BOM.md](BOM.md) for a priced parts list. Full build including LilyGo T-Beam is ~**$235** (~**$240–280** with tax/shipping; Oct 2026 retail estimates). If the T-Beam is already on hand, remaining parts are ~**$189**. Inside-box fasteners (standoffs, VHB, battery strap, etc.) are in [BOM-enclosure-mounting.md](BOM-enclosure-mounting.md) (~**$57**).
 
 ## How to use
 

@@ -16,7 +16,7 @@ Do **not** connect LiFePO4 to T-Beam B+/B− (AXP charges to ~4.2 V).
 | 1a | *Alt: T-Beam Supreme 915* | ESP32-S3 + AXP2101; use instead of #1 if preferred | 1 | 52.97 | — | [Rokland T-Beam Supreme](https://store.rokland.com/collections/lilygo-t-beam-series) |
 | 2 | **Outdoor LoRa antenna** | 5–5.8 dBi omni, 902–928 MHz, N-male fiberglass | 1 | 14.95 | 14.95 | [SparkFun 5.8 dBi N](https://www.sparkfun.com/lora-fiberglass-antenna-type-n-5-8dbi-902-928mhz.html) |
 | 2a | *Alt antenna* | Compact 5 dBi N-male omni | 1 | 14.97 | — | [Rokland ALFA AOA-915-5ACM](https://store.rokland.com/products/alfa-aoa-915-5acm-5-dbi-omni-outdoor-915mhz-802-11ah-mini-antenna-for-lora-halow-application) |
-| 3 | **RF pigtail** | N-female → SMA-male (match T-Beam LoRa SMA), ≤1–2 m low-loss | 1 | 12.00 | 12.00 | Rokland / Amazon “N-female to SMA” LoRa cable |
+| 3 | **RF pigtail** | N-female → SMA-male (match T-Beam LoRa SMA), ≤1–2 m low-loss | 1 | 10.97 | 10.97 | [Rokland SMA-male to N-female cable](https://store.rokland.com/products/sma-male-to-n-female-6-ft-antenna-extension-coaxial-cable-240-low-loss) · [short adapter pigtail](https://store.rokland.com/products/sma-male-to-n-female-connector-adapter-pigtail) |
 | 4 | **Solar panel + PWM controller kit** | 20 W mono + waterproof 10 A PWM (Li-compatible). Prefer LFP setting if available. | 1 | 49.99 | 49.99 | [Amazon Newpowa 20W kit](https://www.amazon.com/Newpowa-Solar-Charging-Controller-Regulator/dp/B00LDISZZA) · [Newpowa direct ~$40.79](https://www.newpowa.com/20w-waterproof-monocrystalline-solar-kit/) |
 | 5 | **LiFePO4 battery** | 12.8 V 6 Ah (~76.8 Wh) w/ BMS — exceeds 3–5 day target for T-Beam idle. Includes LFP charger in many listings (use solar controller for rooftop charge). | 1 | 24.99 | **24.99** | [Amazon OCELL 12V 6Ah LFP](https://www.amazon.com/OCELL-6Ah-LiFePO4-Cycle-Battery/dp/B0G8JKL4GJ) |
 | 5a | *Alt pack* | Same capacity; search current stock if ASIN rotates | 1 | 23.99 | — | [Amazon search: 12V 6Ah LiFePO4](https://www.amazon.com/s?k=12V+6Ah+LiFePO4+battery) · prefer DC HOUSE / similar w/ BMS |
@@ -29,17 +29,17 @@ Do **not** connect LiFePO4 to T-Beam B+/B− (AXP charges to ~4.2 V).
 | 11 | **Mounting hardware (outdoor)** | Panel Z-brackets or pole clamps, U-bolts, UV zip-ties — **outside** the box | 1 | 15.00 | 15.00 | Hardware store / Amazon solar Z-brackets · **Inside-box mounts:** [BOM-enclosure-mounting.md](BOM-enclosure-mounting.md) (~$57) |
 | 12 | **Weather kit** | Silicone sealant, self-fusing tape (RF joints), silica desiccant pack | 1 | 12.00 | 12.00 | Hardware / Amazon |
 | 13 | **Hookup wire / connectors** | 16–18 AWG, Anderson/SAE as needed, ring terminals | 1 | 10.00 | 10.00 | Hardware / Amazon |
-| | | | | **Parts to buy** | **235.91** | |
+| | | | | **Parts to buy** | **234.88** | |
 
 ### Totals (recommended line items 1–13)
 
 | | Amount |
 |--|--------|
-| **Parts to buy (incl. T-Beam)** | **~$236** |
+| **Parts to buy (incl. T-Beam)** | **~$235** |
 | Est. tax (example 8%) | ~$19 |
 | Est. shipping (if not free) | $0–25 |
 | **All-in estimate** | **~$240–280** |
-| If T-Beam already owned, subtract #1 | **~$190** parts / ~$195–230 all-in |
+| If T-Beam already owned, subtract #1 | **~$189** parts / ~$195–230 all-in |
 
 ---
 
@@ -89,7 +89,7 @@ If winters go below freezing, treat the cold-cutoff controller as **required**, 
 | Build | Key swaps | Approx. to buy |
 |-------|-----------|----------------|
 | **Budget** | T-Beam + ALFA antenna + Newpowa 20W + OCELL 6Ah + bare buck + basic box | **~$210** |
-| **Recommended (this BOM)** | T-Beam + SparkFun fiberglass + USB buck + bulkhead + full weather kit | **~$236** |
+| **Recommended (this BOM)** | T-Beam + SparkFun fiberglass + USB buck + bulkhead + full weather kit | **~$235** |
 | **Premium / cold** | Supreme or 1W radio + Bioenno LFP + Victron-class controller + cold cutoff | **~$350–450** |
 | **Skip radio** | If T-Beam already on hand, omit #1 | **−$46** |
 
