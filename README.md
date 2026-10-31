@@ -28,13 +28,27 @@ Terminal order: connect **battery first**, then panel. Fuse battery **+** near t
 
 See [BOM.md](BOM.md) for a priced parts list. With the T-Beam already on hand, remaining parts are ~**$182** (~**$185–220** with tax/shipping; Oct 2026 retail estimates). Inside-box fasteners (standoffs, VHB, battery strap, etc.) are in [BOM-enclosure-mounting.md](BOM-enclosure-mounting.md) (~**$57**).
 
-## Flash & configure
+## How to use
+
+Full flash, configure, bench-test, and day-to-day steps: **[USAGE.md](USAGE.md)**.
 
 1. Identify T-Beam revision (v1.1 AXP192 vs v1.2/Supreme AXP2101) and LoRa chip (SX1262 vs SX1276).
 2. Flash **Repeater** firmware: [flasher.meshcore.io](https://flasher.meshcore.io)
 3. Configure radio to match your local mesh (US/CA often `910.525,62.5,7,5` — confirm with your group).
 4. Disable GPS for fixed rooftop use; keep flood advert interval long.
 5. Bench-test ≥72 h with the panel covered before install.
+
+## Mounting
+
+**Enclosure (site)** — under eave/wall preferred, or mast/pole. Glands face down. Panel and antenna stay outside.
+
+![Enclosure site mounting](meshcore-tbeam-enclosure-site-mount.jpg)
+
+**Solar panel** — Z-brackets on roof/wall, or U-bolts on a mast (keep antenna clear).
+
+![Solar panel mounting](meshcore-tbeam-solar-panel-mount.jpg)
+
+Inside-box layout: `meshcore-tbeam-enclosure-layout.jpg`. Fasteners: [BOM-enclosure-mounting.md](BOM-enclosure-mounting.md).
 
 ## Safety
 

@@ -76,9 +76,12 @@ If winters go below freezing, treat the cold-cutoff controller as **required**, 
 | MeshCore flasher | https://flasher.meshcore.io |
 | Repeater / room config | https://config.meshcore.dev |
 | T-Beam build notes | https://wiki.meshamerica.com/books/diy-build-guides/page/t-beam-build-guide-ttgolilygo |
+| Usage (flash / operate) | [USAGE.md](USAGE.md) |
 | Architecture diagram | `meshcore-tbeam-rooftop-architecture.jpg` |
 | Wiring diagram | `meshcore-tbeam-wiring-diagram.jpg` |
-| Enclosure layout | `meshcore-tbeam-enclosure-layout.jpg` |
+| Enclosure layout (internals) | `meshcore-tbeam-enclosure-layout.jpg` |
+| Enclosure site mount | `meshcore-tbeam-enclosure-site-mount.jpg` |
+| Solar panel mount | `meshcore-tbeam-solar-panel-mount.jpg` |
 | Enclosure mounting BOM | [BOM-enclosure-mounting.md](BOM-enclosure-mounting.md) |
 
 ---
