@@ -77,6 +77,7 @@ If winters go below freezing, treat the cold-cutoff controller as **required**, 
 | Repeater / room config | https://config.meshcore.dev |
 | T-Beam build notes | https://wiki.meshamerica.com/books/diy-build-guides/page/t-beam-build-guide-ttgolilygo |
 | Architecture diagram | `meshcore-tbeam-rooftop-architecture.jpg` |
+| Wiring diagram | `meshcore-tbeam-wiring-diagram.jpg` |
 
 ---
 

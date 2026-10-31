@@ -18,6 +18,12 @@ Solar-powered **MeshCore** rooftop bridge repeater design for **US/CA (902–928
 
 Do **not** connect LiFePO4 to the T-Beam `B+`/`B−` pads — the onboard AXP charger targets ~4.2 V (Li-ion) and can overcharge LFP.
 
+## Wiring
+
+![Wiring diagram](meshcore-tbeam-wiring-diagram.jpg)
+
+Terminal order: connect **battery first**, then panel. Fuse battery **+** near the pack. Feed the T-Beam only on **USB/5V**; leave the 18650 holder empty. RF: outdoor N-male omni → N-female–to–SMA pigtail → T-Beam LoRa SMA.
+
 ## Bill of materials
 
 See [BOM.md](BOM.md) for a priced parts list. With the T-Beam already on hand, remaining parts are ~**$182** (~**$185–220** with tax/shipping; Oct 2026 retail estimates).
