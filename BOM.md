@@ -1,8 +1,7 @@
 # BOM — Solar MeshCore Rooftop Bridge (LilyGo T-Beam)
 
 **Role:** US/CA rooftop bridge repeater · **Autonomy:** 3–5 days · **Access:** rooftop-serviceable  
-**Prices:** approx. USD retail (Oct 2026). Exclude tax/shipping unless noted. Verify stock before buy.  
-**Owned:** LilyGo T-Beam already on hand — **$0** on this BOM (reference retail ~$46 if replacing).
+**Prices:** approx. USD retail (Oct 2026). Exclude tax/shipping unless noted. Verify stock before buy.
 
 **Power rule:** Solar → LFP controller → LiFePO4 → 5 V regulator → T-Beam USB/5V.  
 Do **not** connect LiFePO4 to T-Beam B+/B− (AXP charges to ~4.2 V).
@@ -13,8 +12,8 @@ Do **not** connect LiFePO4 to T-Beam B+/B− (AXP charges to ~4.2 V).
 
 | # | Item | Spec / notes | Qty | Unit $ | Ext $ | Source |
 |---|------|--------------|-----|--------|-------|--------|
-| 1 | **LilyGo T-Beam 915 MHz** | **Already owned.** Match flasher to radio (SX1262/SX1276) + PMIC (v1.1 AXP192 / v1.2 AXP2101). GPS off when deployed. | 1 | 0.00 | **0.00** | On hand (ref. [Amazon ~$46](https://www.amazon.com/LILYGO-Meshtastic-Development-CH9102F-Soldered/dp/B0B63FV7FR)) |
-| 1a | *Alt: T-Beam Supreme 915* | Only if buying a second/replacement board | 1 | 52.97 | — | [Rokland T-Beam Supreme](https://store.rokland.com/collections/lilygo-t-beam-series) |
+| 1 | **LilyGo T-Beam 915 MHz** | Match flasher to radio (SX1262/SX1276) + PMIC (v1.1 AXP192 / v1.2 AXP2101). GPS off when deployed. | 1 | 45.99 | **45.99** | [Amazon LilyGo T-Beam](https://www.amazon.com/LILYGO-Meshtastic-Development-CH9102F-Soldered/dp/B0B63FV7FR) |
+| 1a | *Alt: T-Beam Supreme 915* | ESP32-S3 + AXP2101; use instead of #1 if preferred | 1 | 52.97 | — | [Rokland T-Beam Supreme](https://store.rokland.com/collections/lilygo-t-beam-series) |
 | 2 | **Outdoor LoRa antenna** | 5–5.8 dBi omni, 902–928 MHz, N-male fiberglass | 1 | 14.95 | 14.95 | [SparkFun 5.8 dBi N](https://www.sparkfun.com/lora-fiberglass-antenna-type-n-5-8dbi-902-928mhz.html) |
 | 2a | *Alt antenna* | Compact 5 dBi N-male omni | 1 | 14.97 | — | [Rokland ALFA AOA-915-5ACM](https://store.rokland.com/products/alfa-aoa-915-5acm-5-dbi-omni-outdoor-915mhz-802-11ah-mini-antenna-for-lora-halow-application) |
 | 3 | **RF pigtail** | N-female → SMA-male (match T-Beam LoRa SMA), ≤1–2 m low-loss | 1 | 12.00 | 12.00 | Rokland / Amazon “N-female to SMA” LoRa cable |
@@ -30,18 +29,17 @@ Do **not** connect LiFePO4 to T-Beam B+/B− (AXP charges to ~4.2 V).
 | 11 | **Mounting hardware (outdoor)** | Panel Z-brackets or pole clamps, U-bolts, UV zip-ties — **outside** the box | 1 | 15.00 | 15.00 | Hardware store / Amazon solar Z-brackets · **Inside-box mounts:** [BOM-enclosure-mounting.md](BOM-enclosure-mounting.md) (~$57) |
 | 12 | **Weather kit** | Silicone sealant, self-fusing tape (RF joints), silica desiccant pack | 1 | 12.00 | 12.00 | Hardware / Amazon |
 | 13 | **Hookup wire / connectors** | 16–18 AWG, Anderson/SAE as needed, ring terminals | 1 | 10.00 | 10.00 | Hardware / Amazon |
-| | | | | **Parts to buy** | **182.06** | |
+| | | | | **Parts to buy** | **228.05** | |
 
-### Totals (recommended line items 2–13; T-Beam owned)
+### Totals (recommended line items 1–13)
 
 | | Amount |
 |--|--------|
-| T-Beam (owned) | **$0** |
-| **Parts to buy** | **~$182** |
-| Est. tax (example 8%) | ~$15 |
+| **Parts to buy (incl. T-Beam)** | **~$228** |
+| Est. tax (example 8%) | ~$18 |
 | Est. shipping (if not free) | $0–25 |
-| **All-in estimate (remaining)** | **~$185–220** |
-| Full retail if buying T-Beam too | ~$228 parts / ~$230–270 all-in |
+| **All-in estimate** | **~$230–270** |
+| If T-Beam already owned, subtract #1 | **~$182** parts / ~$185–220 all-in |
 
 ---
 
@@ -88,18 +86,18 @@ If winters go below freezing, treat the cold-cutoff controller as **required**, 
 
 ## Budget vs premium snapshot
 
-| Build | Key swaps | Approx. to buy (T-Beam owned) |
-|-------|-----------|--------------------------------|
-| **Budget** | ALFA antenna + Newpowa 20W + Takki 6Ah + bare buck + basic box | **~$155** |
-| **Recommended (this BOM)** | SparkFun fiberglass + USB buck + bulkhead + full weather kit | **~$182** |
-| **Premium / cold** | Bioenno LFP + Victron-class controller + cold cutoff | **~$300–400** |
-| **If replacing radio** | Add standard T-Beam (~$46) or Supreme (~$53) / 1W (~$63) | **+$46–63** |
+| Build | Key swaps | Approx. to buy |
+|-------|-----------|----------------|
+| **Budget** | T-Beam + ALFA antenna + Newpowa 20W + Takki 6Ah + bare buck + basic box | **~$200** |
+| **Recommended (this BOM)** | T-Beam + SparkFun fiberglass + USB buck + bulkhead + full weather kit | **~$228** |
+| **Premium / cold** | Supreme or 1W radio + Bioenno LFP + Victron-class controller + cold cutoff | **~$350–450** |
+| **Skip radio** | If T-Beam already on hand, omit #1 | **−$46** |
 
 ---
 
 ## Buy checklist (order of purchase)
 
-1. Confirm **owned** T-Beam **revision + LoRa chip** before flashing.  
+1. Buy **LilyGo T-Beam 915**; confirm **revision + LoRa chip** before flashing.  
 2. Buy antenna + pigtail (gender match N ↔ SMA).  
 3. Buy solar/LFP/5 V stack; battery → controller → panel wiring; fuse on battery +.  
 4. 5 V only into T-Beam USB/5V — empty onboard 18650 holder for this solar design.  
