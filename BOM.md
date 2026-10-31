@@ -27,7 +27,7 @@ Do **not** connect LiFePO4 to T-Beam B+/B− (AXP charges to ~4.2 V).
 | 8 | **IP65/IP67 enclosure** | ≥150×110×70 mm (fits T-Beam + converter + glands); larger if battery inside | 1 | 18.00 | 18.00 | Amazon outdoor junction box (size up vs tiny 65 mm boxes) |
 | 9 | **Cable glands** | PG7/PG9 pack (antenna/power/USB) | 1 | 5.00 | 5.00 | Often included with box; else Amazon gland pack |
 | 10 | **USB bulkhead / recovery** | Waterproof USB-C or Micro-USB extension for rooftop flash without opening often | 1 | 8.00 | 8.00 | Amazon waterproof USB panel mount |
-| 11 | **Mounting hardware** | Panel Z-brackets or pole clamps, U-bolts, UV zip-ties | 1 | 15.00 | 15.00 | Hardware store / Amazon solar Z-brackets |
+| 11 | **Mounting hardware (outdoor)** | Panel Z-brackets or pole clamps, U-bolts, UV zip-ties — **outside** the box | 1 | 15.00 | 15.00 | Hardware store / Amazon solar Z-brackets · **Inside-box mounts:** [BOM-enclosure-mounting.md](BOM-enclosure-mounting.md) (~$57) |
 | 12 | **Weather kit** | Silicone sealant, self-fusing tape (RF joints), silica desiccant pack | 1 | 12.00 | 12.00 | Hardware / Amazon |
 | 13 | **Hookup wire / connectors** | 16–18 AWG, Anderson/SAE as needed, ring terminals | 1 | 10.00 | 10.00 | Hardware / Amazon |
 | | | | | **Parts to buy** | **182.06** | |
@@ -78,6 +78,8 @@ If winters go below freezing, treat the cold-cutoff controller as **required**, 
 | T-Beam build notes | https://wiki.meshamerica.com/books/diy-build-guides/page/t-beam-build-guide-ttgolilygo |
 | Architecture diagram | `meshcore-tbeam-rooftop-architecture.jpg` |
 | Wiring diagram | `meshcore-tbeam-wiring-diagram.jpg` |
+| Enclosure layout | `meshcore-tbeam-enclosure-layout.jpg` |
+| Enclosure mounting BOM | [BOM-enclosure-mounting.md](BOM-enclosure-mounting.md) |
 
 ---
 
