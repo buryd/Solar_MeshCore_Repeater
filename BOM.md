@@ -29,9 +29,9 @@ Do **not** connect LiFePO4 to T-Beam B+/B− (AXP charges to ~4.2 V).
 | 11 | **Mounting hardware (outdoor)** | Panel Z-brackets or pole clamps, U-bolts, UV zip-ties — **outside** the box | 1 | 15.00 | 15.00 | [Amazon solar Z-brackets](https://www.amazon.com/s?k=solar+panel+Z+brackets) · [pole clamps / U-bolts](https://www.amazon.com/s?k=antenna+pole+mount+U-bolt) · inside-box: [BOM-enclosure-mounting.md](BOM-enclosure-mounting.md) (~$57) |
 | 12 | **Weather kit** | Silicone sealant, self-fusing tape (RF joints), silica desiccant pack | 1 | 12.00 | 12.00 | [Amazon outdoor silicone](https://www.amazon.com/s?k=outdoor+silicone+sealant) · [self-fusing silicone tape](https://www.amazon.com/s?k=self+fusing+silicone+tape) · [silica desiccant packs](https://www.amazon.com/s?k=silica+gel+desiccant+packs) |
 | 13 | **Hookup wire / connectors** | 16–18 AWG, Anderson/SAE as needed, ring terminals | 1 | 10.00 | 10.00 | [Amazon 16 AWG hookup wire](https://www.amazon.com/s?k=16+AWG+hookup+wire+red+black) · [Anderson Powerpole](https://www.amazon.com/s?k=Anderson+Powerpole+connectors) · [ring terminals](https://www.amazon.com/s?k=ring+terminals+assortment) |
-| | | | | **Total** | **$234.88** | |
+| — | **TOTAL** | Recommended line items 1–13 (alts excluded) | — | — | **$234.88** | |
 
-### Total (recommended line items 1–13)
+## TOTAL: $234.88
 
 | | Amount |
 |--|--------|
